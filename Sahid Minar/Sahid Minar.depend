@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1730122764 source:d:\graphics_lab\sahid minar\main.cpp
+1730123164 source:d:\graphics_lab\sahid minar\main.cpp
 	<GL/glut.h>
 	<cmath>
 
