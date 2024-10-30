@@ -210,21 +210,21 @@ void flag() {
 
     glBegin(GL_QUADS);
     glColor3ub(242, 242, 242);
-    glVertex2f(0.3f, -1.0f); // Adjusted position for flagpole
-    glVertex2f(0.32f, -1.0f);
-    glVertex2f(0.32f, 0.05f);
-    glVertex2f(0.3f, 0.05f);
+    glVertex2f(-.7f, 0.7f); // Adjusted position for flagpole
+    glVertex2f(-0.75f, 0.70f);
+    glVertex2f(-0.75f, -0.1f);
+    glVertex2f(-0.7f, -0.1f);
     glEnd();
 
     glBegin(GL_QUADS);
     glColor3ub(0, 153, 51);
-    glVertex2f(0.32f, 0.05f);
-    glVertex2f(0.58f, 0.05f); // Adjusted position for flag
-    glVertex2f(0.58f, -0.2f);
-    glVertex2f(0.32f, -0.2f);
+    glVertex2f(-0.7f, 0.7f);
+    glVertex2f(-0.4f, 0.7f); // Adjusted position for flag
+    glVertex2f(-0.4f, .4f);
+    glVertex2f(-0.7f, .4f);
     glEnd();
 
-    float x = 0.45f, y = -0.07f, r = 0.07;
+    float x = -0.55f, y = 0.55f, r = 0.07;
     float twicePie = 2.0 * 3.1416;
     int trainglePoints = 20;
 
